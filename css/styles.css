@@ -1,0 +1,171 @@
+.body{
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+}
+.second-div{
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+.third-div{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 980px;
+    position: relative;
+}
+.fourth-div{
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    vertical-align: top;
+    display: inline-block;
+}
+.fifth-div{
+    padding: 112px 0 16px;
+}
+.facebook-logo{
+    height: 106px;
+    margin: -28px;
+}
+.text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    padding: 0 0 20px;
+    margin: 0;
+}
+.container-form{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 16px 0 28px;
+    width: 396px;
+}
+.e-mail{
+    width: 323px;
+    height: 23px;
+    margin-left: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    vertical-align: middle;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+.e-mail::placeholder{
+    color: #80878D;
+}
+.e-mail:focus::placeholder{
+    color: #BBC5CE;
+}
+.e-mail:focus{
+    outline: none;
+    border: 1px solid #0174D4;
+    box-shadow: 0px 0px 2px 2px rgba(0,152,222,0.20);
+}
+.e-mail:hover{
+    cursor: text;
+}
+.password{
+    width: 323px;
+    height: 23px;
+    margin-left: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid #dddfe2;
+    vertical-align: middle;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+.password::placeholder{
+    color: #80878D;
+}
+.password:focus::placeholder{
+    color: #BBC5CE;
+}
+.password:hover{
+    cursor: text;
+}
+.div-password{
+    margin-top: 12px;
+}
+.password:focus{
+    outline: none;
+    border: 1px solid #0174D4;
+        box-shadow: 0px 0px 2px 2px rgba(0,152,222,0.20);
+}
+.btn-login{
+    margin-top: 16px;
+    width: 357px;
+    height: 47px;
+    margin-left: 20px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-login:hover{
+    background-color: #086FF6;
+}
+.div-link{
+    display: flex;
+    justify-content: center;
+}
+.link-password{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.link-password:hover{
+    text-decoration: underline;
+}
+.div-line{
+    border-top: 1px solid #D1D9E3;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.div-new-account{
+    display: flex;
+    justify-content: center;
+}
+.btn-newAccount{
+    margin-top: 28px;
+    width: 189px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: #44B606;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-newAccount:hover{
+    transition: 0.3s;
+    background-color: #3A9B06;
+}
