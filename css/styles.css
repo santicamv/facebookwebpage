@@ -11,7 +11,7 @@
 }
 .second-div{
     padding-top: 72px;
-    padding-bottom: 112px;
+    padding-bottom: 147px;
 }
 .third-div{
     margin: 0 auto;
@@ -168,4 +168,128 @@
 .btn-newAccount:hover{
     transition: 0.3s;
     background-color: #3A9B06;
+}
+.div-newWebPage{
+    display: flex;
+    justify-content: flex-end;
+}
+.new-page-text{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.new-page-textb{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.new-page-textb:hover{
+    text-decoration: underline;
+}
+.container-footer{
+    background-color: white;
+    padding-top: 15px;
+}
+.div-footer{
+    justify-content: center;
+    margin-left: 315px;
+}
+.languages li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    color: #8a8d91;
+    cursor: pointer;
+    font-size: 12px;
+}
+.languages{
+    margin-bottom: 2px;
+    margin-top: 3px;
+}
+.languages li:hover{
+    text-decoration: underline;
+}
+.add-language{
+    background-color: #EDF1EA;
+    border: 1px solid #B7BEB3;
+    width: 30px;
+    height: 23px;
+    font-size: 13px;
+    font-weight: 900;
+    color: #8a8d91;
+    cursor: pointer;
+}
+.line-footer{
+    border-bottom:  0.1px solid #dddfe2;
+    margin-right: 400px;
+    margin-left: 358px;
+    margin-bottom: 10px;
+}
+.div-firstLine{
+    background-color: white;
+    margin-left: 315px;
+}
+.inferior-list li{
+    display: inline-block;
+    padding-right: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #8a8d91;
+    cursor: pointer;
+    font-size: 12px;
+}
+.inferior-list li:hover{
+    text-decoration: underline;
+}
+.inferior-list{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inferior-list2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inferior-list3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.div-secondLine{
+    background-color: white;
+    margin-left: 315px;
+}
+.inferior-list2 li{
+    display: inline-block;
+    padding-right: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #8a8d91;
+    cursor: pointer;
+    font-size: 12px;
+}
+.inferior-list2 li:hover{
+    text-decoration: underline;
+}
+.div-thirdLine{
+    background-color: white;
+    margin-left: 315px;
+}
+.inferior-list3 li{
+    display: inline-block;
+    padding-right: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #8a8d91;
+    cursor: pointer;
+    font-size: 12px;
+}
+.inferior-list3 li:hover{
+    text-decoration: underline;
+}
+.meta{
+    margin-top: 25px;
+    margin-left: 355px;
+}
+.meta-text{
+    color: #8a8d91;
+    cursor: text;
+    font-size: 11px;
+}
+.final-space{
+    height: 5px;
 }
